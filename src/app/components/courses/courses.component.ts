@@ -31,5 +31,10 @@ export class CoursesComponent implements OnInit{
     
     this.router.navigate(['ELearning/course/add']);
   }
+  removeCourse(id:any){
 
+    this.service.deleteCourseById(id).subscribe(res=>this.ngOnInit());
+
+
+  }
 }

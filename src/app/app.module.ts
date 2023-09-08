@@ -35,6 +35,7 @@ import { EditSubjectComponent } from './components/edit-subject/edit-subject.com
 import { EditDegreeComponent } from './components/edit-degree/edit-degree.component';
 import { EditTopicComponent } from './components/edit-topic/edit-topic.component';
 import { AddCourseComponent } from './components/add-course/add-course.component';
+import { EditCourseComponent } from './components/edit-course/edit-course.component';
 
 @NgModule({
   declarations: [
@@ -53,7 +54,8 @@ import { AddCourseComponent } from './components/add-course/add-course.component
     EditSubjectComponent,
     EditDegreeComponent,
     EditTopicComponent,
-    AddCourseComponent
+    AddCourseComponent,
+    EditCourseComponent
   ],
   imports: [
     BrowserModule,

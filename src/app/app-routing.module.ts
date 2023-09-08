@@ -15,6 +15,7 @@ import { EditDegreeComponent } from './components/edit-degree/edit-degree.compon
 import { EditTopicComponent } from './components/edit-topic/edit-topic.component';
 import 'bootstrap/dist/js/bootstrap.bundle';
 import { AddCourseComponent } from './components/add-course/add-course.component';
+import { EditCourseComponent } from './components/edit-course/edit-course.component';
 
 
 const routes: Routes = [
@@ -37,7 +38,7 @@ const routes: Routes = [
   {path:'subject/edit/:id', component:EditSubjectComponent},
   {path:'degree/edit/:id', component:EditDegreeComponent},
   {path:'topic/edit/:id', component:EditTopicComponent},
-  
+  {path:'course/edit/:id', component:EditCourseComponent},
  
 ]}
  

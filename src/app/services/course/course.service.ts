@@ -38,7 +38,7 @@ export class CourseService {
  updateCourse(id:any,data:any){
 
 
-  return this.http.put(`${this.apiServerUrl}/university/update/`+id, data);
+  return this.http.put(`${this.apiServerUrl}/course/update/`+id+'/', data);
 
   
  }    
@@ -47,7 +47,7 @@ export class CourseService {
  deleteCourseById(id:any){
 
 
-  return this.http.delete(`${this.apiServerUrl}/university/delete/`+id);
+  return this.http.delete(`${this.apiServerUrl}/course/delete/`+id+'/');
 
 
 }

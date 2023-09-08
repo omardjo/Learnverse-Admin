@@ -31,9 +31,9 @@
 
           <td><button  mat-raised-button color="primary"  routerLink="">Details</button></td>
 
-          <td><button  mat-raised-button color="primary"  routerLink="">Edit</button></td>
+          <td><button  mat-raised-button color="primary"  routerLink="/ELearning/course/edit/{{course.id}}">Edit</button></td>
 
-          <td><button mat-raised-button color="primary" >Delete</button></td>
+          <td><button mat-raised-button color="primary" (click)="removeCourse(course.id)">Delete</button></td>
          
       </tr>
      
