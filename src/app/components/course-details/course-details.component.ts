@@ -13,8 +13,7 @@ export class CourseDetailsComponent implements OnInit{
   courseId:any;
 
   course: any ; 
-
-  videoUrl="http://localhost:8000/media/videos/Snapinsta.app_video_53921017_154718780619968_8753101696699856532_n_deuS9WD.mp4"
+  baseImageUrl = 'http://localhost:8000'; // Replace with your actual base URL
 
   constructor(private router:Router,private route:ActivatedRoute,private service:CourseService) { }
 
@@ -33,5 +32,6 @@ export class CourseDetailsComponent implements OnInit{
     
 
   }
+  
 
 }

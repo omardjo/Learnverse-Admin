@@ -36,6 +36,9 @@ import { EditDegreeComponent } from './components/edit-degree/edit-degree.compon
 import { EditTopicComponent } from './components/edit-topic/edit-topic.component';
 import { AddCourseComponent } from './components/add-course/add-course.component';
 import { EditCourseComponent } from './components/edit-course/edit-course.component';
+import { DegreeDetailsComponent } from './components/degree-details/degree-details.component';
+import { SubjectDetailsComponent } from './components/subject-details/subject-details.component';
+import { TopicDetailsComponent } from './components/topic-details/topic-details.component';
 
 @NgModule({
   declarations: [
@@ -55,7 +58,10 @@ import { EditCourseComponent } from './components/edit-course/edit-course.compon
     EditDegreeComponent,
     EditTopicComponent,
     AddCourseComponent,
-    EditCourseComponent
+    EditCourseComponent,
+    DegreeDetailsComponent,
+    SubjectDetailsComponent,
+    TopicDetailsComponent,
   ],
   imports: [
     BrowserModule,

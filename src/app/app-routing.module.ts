@@ -16,6 +16,9 @@ import { EditTopicComponent } from './components/edit-topic/edit-topic.component
 import 'bootstrap/dist/js/bootstrap.bundle';
 import { AddCourseComponent } from './components/add-course/add-course.component';
 import { EditCourseComponent } from './components/edit-course/edit-course.component';
+import { DegreeDetailsComponent } from './components/degree-details/degree-details.component';
+import { SubjectDetailsComponent } from './components/subject-details/subject-details.component';
+import { TopicDetailsComponent } from './components/topic-details/topic-details.component';
 
 
 const routes: Routes = [
@@ -27,6 +30,10 @@ const routes: Routes = [
  
  {path: 'ELearning', component:NavbarComponent,children: [
   {path:'course/details/:id', component:CourseDetailsComponent},
+  {path:'degree/details/:id', component:DegreeDetailsComponent},
+  {path:'subject/details/:id', component:SubjectDetailsComponent},
+  {path:'topic/details/:id', component:TopicDetailsComponent},
+
   {path:'courses', component:CoursesComponent},
   {path:'degrees', component:DegreesComponent},
   {path:'subjects', component:SubjectsComponent},

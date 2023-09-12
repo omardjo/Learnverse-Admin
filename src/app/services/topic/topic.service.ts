@@ -21,7 +21,7 @@ export class TopicService {
  getTopicById(id:any) {  
 
 
-  return this.http.get(`${this.apiServerUrl}`+'/'+id+'/');
+  return this.http.get(`${this.apiServerUrl}`+'/topic/'+id+'/');
 
 
      }

@@ -18,10 +18,10 @@ export class SubjectService {
   
   }
 
- getDegreeById(id:any) {  
+ getSubjectById(id:any) {  
 
 
-  return this.http.get(`${this.apiServerUrl}`+'/'+id+'/');
+  return this.http.get(`${this.apiServerUrl}`+'/subject/'+id+'/');
 
 
      }
